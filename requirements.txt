@@ -1,6 +1,6 @@
 pyrogram<=2.0.33
 tgcrypto<=1.2.3
-aiohttp<=3.8.1
+aiohttp<=3.13.3
 python-dotenv<=0.20.0
 motor
 aiofiles
@@ -12,3 +12,4 @@ pyromod
 jinja2
 shortzy
 
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
